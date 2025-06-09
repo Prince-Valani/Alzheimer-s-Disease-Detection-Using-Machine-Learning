@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 🧠  Alzheimer's Disease Detection Using Various Machine Learning Algorithms
 
 
@@ -31,4 +30,3 @@ Our best-performing model achieved:
   
 =======
 # Alzheimer-s-Disease-Detection-Using-Machine-Learning
->>>>>>> 76e2c86c1829f029e4b70ca71199dcbf177f7232
