@@ -1,4 +1,4 @@
-## 🧠  Alzheimer's Disease Detection Using Various Machine Learning Algorithms
+#🧠 Alzheimer's Disease Detection Using Various Machine Learning Algorithms
 
 
 ![brain](https://github.com/user-attachments/assets/b50c3ac1-f1db-477e-a8d4-ab868483d739)
@@ -27,6 +27,4 @@ Our best-performing model achieved:
 - **Precision:** 96%  
 - **Recall:** 96%  
 - **F1-score:** 96%
-  
-=======
-# Alzheimer-s-Disease-Detection-Using-Machine-Learning
+
