@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Body background */
+body {
+    background-image:url('brain.jpg'); /* Light blue gradient */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Container styling */
+.stApp {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 0; /* Remove padding to align title flush with container */
+    max-width: 750px;
+    margin: 40px auto;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden; /* Ensures title and container merge smoothly */
+}
+
+/* Title styling integrated with container */
+h1 {
+    text-align: center;
+    color: #ffffff; /* White text for contrast */
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff6f61, #fcb045); /* Vibrant gradient background */
+    border-top-left-radius: 16px; /* Rounded corners on top only */
+    border-top-right-radius: 16px; /* Rounded corners on top only */
+    margin: 0; /* Remove margin to avoid spacing around title */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Slight text shadow */
+}
+
+/* Optional styling to center the title box */
+.stApp h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Input styling */
+.stNumberInput, .stSelectbox {
+    font-size: 18px;
+    color: #333;
+}
+
+.stNumberInput > label, .stSelectbox > label {
+    color: #ff6f61; /* Label color */
+    font-weight: bold;
+}
+
+input[type="number"], select {
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #fcb045;
+    outline: none;
+    box-shadow: 0 0 5px rgba(252, 176, 69, 0.5);
+}
+
+/* Button styling */
+.stButton>button {
+    background: linear-gradient(135deg, #ff6f61, #fcb045); /* Button gradient */
+    color: white;
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #fcb045, #ff6f61); /* Button hover effect */
+    transform: scale(1.05);
+}
+
+/* Prediction result styling */
+.prediction-result {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fcb045, #ff6f61); /* Result background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
